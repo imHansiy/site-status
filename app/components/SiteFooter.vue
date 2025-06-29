@@ -32,11 +32,11 @@
       </n-p>
       <n-p depth="3">
         Copyright &copy; 2020 - {{ new Date().getFullYear() }}
-        <n-text depth="3" @click="jumpLink(linkData.home)"> IMSYY </n-text>
+        <n-text depth="3" @click="jumpLink(linkData.home)"> Hansiy </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
-          @click="jumpLink('https://beian.miit.gov.cn/')"
+          @click="jumpLink('https://hansiy.net')"
         >
           | {{ siteIcp }}
         </n-text>
